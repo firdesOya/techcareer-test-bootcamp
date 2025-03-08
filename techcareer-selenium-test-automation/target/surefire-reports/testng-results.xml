@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-03-08T10:48:26 GMT+03:00" name="Surefire suite" finished-at="2025-03-08T10:48:44 GMT+03:00" duration-ms="17835">
+    <groups>
+    </groups>
+    <test started-at="2025-03-08T10:48:26 GMT+03:00" name="Surefire test" finished-at="2025-03-08T10:48:44 GMT+03:00" duration-ms="17835">
+      <class name="MainPageTest">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:MainPageTest@957e06]" started-at="2025-03-08T10:48:27 GMT+03:00" name="openBrowser" finished-at="2025-03-08T10:48:30 GMT+03:00" duration-ms="3087" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:MainPageTest@957e06]" started-at="2025-03-08T10:48:30 GMT+03:00" name="setUp" finished-at="2025-03-08T10:48:30 GMT+03:00" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="searchTest()[pri:0, instance:MainPageTest@957e06]" started-at="2025-03-08T10:48:30 GMT+03:00" name="searchTest" finished-at="2025-03-08T10:48:32 GMT+03:00" duration-ms="2797" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:MainPageTest@957e06]" started-at="2025-03-08T10:48:32 GMT+03:00" name="closeBrowser" finished-at="2025-03-08T10:48:33 GMT+03:00" duration-ms="88" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- MainPageTest -->
+      <class name="LoginTest">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:LoginTest@6c1a5b54]" started-at="2025-03-08T10:48:33 GMT+03:00" name="openBrowser" finished-at="2025-03-08T10:48:35 GMT+03:00" duration-ms="2320" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="loginSuccessful()[pri:0, instance:LoginTest@6c1a5b54]" started-at="2025-03-08T10:48:35 GMT+03:00" name="loginSuccessful" description="Başarılı Kullanıcı Girişi" finished-at="2025-03-08T10:48:39 GMT+03:00" duration-ms="3683" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginSuccessful -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:LoginTest@6c1a5b54]" started-at="2025-03-08T10:48:39 GMT+03:00" name="closeBrowser" finished-at="2025-03-08T10:48:39 GMT+03:00" duration-ms="85" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:LoginTest@6c1a5b54]" started-at="2025-03-08T10:48:39 GMT+03:00" name="openBrowser" finished-at="2025-03-08T10:48:41 GMT+03:00" duration-ms="2314" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="loginUnsuccessful()[pri:0, instance:LoginTest@6c1a5b54]" started-at="2025-03-08T10:48:41 GMT+03:00" name="loginUnsuccessful" description="Başarısız Kullanıcı Girişi" finished-at="2025-03-08T10:48:44 GMT+03:00" duration-ms="3327" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginUnsuccessful -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:LoginTest@6c1a5b54]" started-at="2025-03-08T10:48:44 GMT+03:00" name="closeBrowser" finished-at="2025-03-08T10:48:44 GMT+03:00" duration-ms="85" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- LoginTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
